@@ -45,7 +45,6 @@ public struct NeonText: View {
                    value: animated)
         .scaledToFit()
         .clipShape(RoundedRectangle(cornerRadius: 10))
-        .opacity(animated ? 1 : 0)
     }
 }
 
@@ -62,5 +61,8 @@ public struct NeonText: View {
         .background(.black)
         .onAppear() {
             animated = true
+        }
+        .onTapGesture {
+            animated.toggle()
         }
 }
