@@ -56,7 +56,7 @@ public struct NeonText: View {
         .neonText(dash: [3, 5])
         .neonText(lineWidth: 5)
         .neonText(duration: 5)
-        .neonText(trim: .init(from: 1, to: 1))
+        .neonText(trim: .init(from: 0.5, to: 0.5))
         .padding(50)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.black)
