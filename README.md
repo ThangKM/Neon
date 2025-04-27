@@ -9,6 +9,16 @@ It provides customization options for font, stroke width, colors, animation, and
 
 ![NeonText Animation](https://github.com/ThangKM/Neon/blob/develop/Sources/PreviewGifs/mac_preview.gif)
 
+## Example
+
+```swift
+NeonText("Neon", animated: $animated)
+        .neonText(dash: [3, 5])
+        .neonText(lineWidth: 5)
+        .neonText(duration: 5)
+        .neonText(trim: .init(from: 0.5, to: 0.5))
+```
+
 ## Configuration
 
 NeonText uses the following environment values for customization:
