@@ -5,9 +5,9 @@ NeonText is a SwiftUI component that renders text with a neon-like animated effe
 NeonText is a SwiftUI component that renders text with a neon-like animated effect.
 It provides customization options for font, stroke width, colors, animation, and more.
 
-<!--![NeonText Animation](https://example.com/neontext-animation.gif)-->
+![NeonText Animation](https://github.com/ThangKM/Neon/blob/develop/Sources/PreviewGifs/iphone_preview.gif)
 
-<!--![NeonText Animation](https://example.com/neontext-animation.gif)-->
+![NeonText Animation](https://github.com/ThangKM/Neon/blob/develop/Sources/PreviewGifs/mac_preview.gif)
 
 ## Configuration
 
